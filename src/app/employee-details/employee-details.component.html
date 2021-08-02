@@ -1,0 +1,37 @@
+<h2>Employee Details</h2> 
+
+<hr/>
+<div *ngIf="employee">
+  <div>
+    <label><b>Firstname: </b></label> {{employee.firstName}}
+  </div>
+  <div>
+    <label><b>Surname: </b></label> {{employee.surname}}
+  </div>
+  <div>
+    <label><b>DateOfBirth: </b></label> {{employee.dateOfBirth}}
+  </div>  
+  <div>
+    <label><b>AdharCard: </b></label> {{employee.adharCard}}
+  </div>
+  <div>
+    <label><b>DateOfJoining: </b></label> {{employee.dateOfJoining}}
+  </div>
+  <div>
+    <label><b>PassportNo: </b></label> {{employee.passportNo}}
+  </div>  
+  <div>
+    <label><b>PanNumber: </b></label> {{employee.panNumber}}
+  </div>
+  <div>
+    <label><b>PlaceOfWorking: </b></label> {{employee.placeOfWorking}}
+  </div>
+  <div>
+    <label><b>MobileNo: </b></label> {{employee.mobileNo}}
+  </div>  
+
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Employee List</button><br>
